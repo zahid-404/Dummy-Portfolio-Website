@@ -9,21 +9,17 @@
   </head>
   <body>
     <!-- Wrapper Start -->
-
     <div id="wrapper">
       <!-- Container Start -->
-
       <div class="container">
         <!-- Navbar Start -->
         <nav class="navbar">
           <!-- Navigation Logo Start -->
-
           <div class="nav-logo">
             <img src="images/userAsset/NavLogo.jpg" alt="" class="logo" />
             <div class="logo-text">ohn Doe</div>
           </div>
-
-          <!-- Navigation Logo Start -->
+          <!-- Navigation Logo End -->
 
           <!-- Navigation Items Start -->
           <div class="nav-items">
@@ -39,13 +35,79 @@
           </div>
           <!-- Navigation Items End -->
         </nav>
-
         <!-- Navbar End -->
+
+        <!-- Hero Section Start -->
+        <div class="hero-section">
+          <div class="faded-text absolute">John Doe</div>
+          <!-- Hero Left Part Start -->
+          <div class="hero-left">
+            <div class="hero-heading">Hi! John Doe</div>
+            <div class="hero-subheading hero-heading">
+              I am a <span class="role"></span>
+            </div>
+            <div class="hero-descripton">
+              I'm a software developer and here is my portfolio website. Here
+              you'll learn about my journey as a software developer.
+            </div>
+            <div class="btn-pink" id="btn">Hire me</div>
+          </div>
+          <!-- Hero Left Part End -->
+
+          <!-- Hero Right Part Start -->
+          <div class="hero-right">
+            <div class="absolute icons icon-dots">
+              <img src="images/userAsset/dots.png" alt="" />
+            </div>
+            <div class="absolute icons icon-cube">
+              <img src="images/userAsset/cube.png" alt="" />
+            </div>
+            <div class="absolute icons icon-circle">
+              <img src="images/userAsset/circle.png" alt="" />
+            </div>
+            <div class="absolute icons icon-zigzag">
+              <img src="images/userAsset/zigzags.png" alt="" />
+            </div>
+            <div class="absolute icons icon-plus">
+              <img src="images/userAsset/plus.png" alt="" />
+            </div>
+            <div class="userimage">
+              <img src="images/userAsset/UserImage.png" alt="" />
+            </div>
+          </div>
+          <!-- Hero Right Part End -->
+        </div>
+        <!-- Hero Section End -->
+        
+       
+        
       </div>
-
       <!-- Container End -->
-    </div>
 
+    </div>
     <!-- Wrapper End -->
+
+    <!-- Script for animation text -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script
+      src="https://kit.fontawesome.com/58a810656e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var typeData = new Typed(".role", {
+        strings: [
+          "Full Stack Developer",
+          "Web Developer",
+          "UI-UX Designer",
+          "Backend Developer",
+          "Coder",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+      });
+    </script>
+    <!-- Script for animation text -->
   </body>
 </html>
