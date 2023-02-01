@@ -6,7 +6,7 @@ I created a demo Portfolio website. which have project, skills and contact secti
 
 ## Screenshots
 
-![App Screenshot](https://i.imgur.com/L0JgjpJ.gif)
+![App Screenshot](https://github.com/zahid-404/Dummy-Portfolio-Website/blob/main/demo.gif)
 
 
 ## Live at
